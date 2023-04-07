@@ -23,7 +23,7 @@ The data you get when browsing Google Shopping depends on some input parameters:
 
 The Google Shopping search-results page lists all the relevant items available on Google Shopping for the required product. The below screenshot highlights different attributes of a results page for the query `levis`.  
 
-![](images\google-shopping-search-page-overview.png)
+![](images/google-shopping-search-page-overview.png)
 
 Let’s discuss all the highlighted parts individually
 
@@ -46,11 +46,11 @@ Let’s discuss all the highlighted parts individually
 
 When you select a specific item from the search page, you are directed to the Products page. This page contains detailed information about that particular product, such as its pictures, key features, product details, product reviews, retailers and prices information, and much more. 
 
-![](images\google-shopping-product-page-overview.png)
+![](images/google-shopping-product-page-overview.png)
 
-![](images\google-shopping-product-page-overview-2.png)
+![](images/google-shopping-product-page-overview-2.png)
 
-![google-shopping-product-page-overview-3](images\google-shopping-product-page-overview-3.png)
+![google-shopping-product-page-overview-3](images/google-shopping-product-page-overview-3.png)
 
 - **Product name**: Title of the product. 
 - **Product Highlights**: Main features to have a quick overview of the product.
@@ -66,7 +66,7 @@ This page lists all the prices of different retailers’ products. This page als
 
 Let’s look at the screenshot of the page highlighting its different parts and discuss them individually. 
 
-![](images\google-shopping-pricing-page-overview.png) 
+![](images/google-shopping-pricing-page-overview.png) 
 
 
 - **Product Name**: shows the name of the searched product.
@@ -164,7 +164,7 @@ df.to_json('google_shopping_search.json', orient='split', index=False)
 
 The output will be sent to the CSV file. The screenshot below shows an extract of the complete CSV file. 
 
-![](images\google-shopping-search-output-csv.png)
+![](images/google-shopping-search-output-csv.png)
 
 #### Product Page
 1. First, the payload structure will be created using different product page parameters. Below is a list of the query parameters and their brief description. 
@@ -229,7 +229,7 @@ print ('Reviews Count: ' + str(reviews_count))
 
 The output will be as follows:
 
-![](images\google-shopping-product-output.png)
+![](images/google-shopping-product-output.png)
 
 #### Pricing Page
 
@@ -287,7 +287,7 @@ df.to_json('google_shopping_pricing.json', orient='split', index=False)
 
 The output CSV will look like this:
 
-![](images\google-shopping-pricing-output.png)
+![](images/google-shopping-pricing-output.png)
 
 ## Conclusion
 Scraping Google Shopping is essential if you’re looking to retrieve accurate data on your biggest competitors’ products and prices and make data-driven decisions to scale your business. We hope this tutorial was clear and will contribute to more effortless and smooth data-gathering activities. But in case you still have any questions, don’t hesitate to [contact us](mailto:hello@oxylabs.io) – Oxylabs’ professional team is always ready to assist you. 
