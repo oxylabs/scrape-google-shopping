@@ -1,4 +1,8 @@
 # How to Scrape Google Shopping Results: A Step-by-Step Guide
+
+[![Oxylabs promo code](https://user-images.githubusercontent.com/129506779/250792357-8289e25e-9c36-4dc0-a5e2-2706db797bb5.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
+
+
 In today’s competitive business environment, it’s hard to imagine a scenario where an e-commerce company or a retailer stays in demand without turning to web scraping. To shortly answer why, gathering accurate public data from thousands of targets worldwide is what gives them a chance to draw actionable insights and, eventually, present customers with the best deals.
 
 This tutorial will demonstrate how you can scrape publicly-available data from Google Shopping hassle-free. In addition to the guide itself, we’ll shortly cover whether it’s legal to scrape Google Shopping and what difficulties you can encounter in the process.
