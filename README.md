@@ -116,7 +116,7 @@ This section will discuss the coding steps for all three types of pages of Googl
 1. The first step is creating a structure payload containing different query parameters. Below is a list of the query parameters and their brief description. 
 
 2. After the payload structure is ready, you can create the request by passing your authentication key.
-3. We will extract the Product Title, Price, and Store name from the response. Since we made the payload parameter `parse:true` the response will be auto-parsed in the JSON format. We can extract product information from the [JSON response](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/google-shopping/structured-data#google_shopping_search-structured-output) without using any external parser.
+3. We will extract the Product Title, Price, and Store name from the response. Since we made the payload parameter `parse:true` the response will be auto-parsed in the JSON format. We can extract product information from the [JSON response](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/google-shopping/shopping-search#structured-data) without using any external parser.
 4. Then we created a DataFrame object that will save all the extracted data. We can print this DataFrame or write it in CSV or JSON files.
 
 The complete code is as follows.
@@ -240,7 +240,7 @@ The output will be as follows:
 
 1. First, the payload structure will be created using different parameters for the pricing page. 
 2. After the payload structure is ready, you can create the request by passing your authentication key.
-3. We’ll be extracting Product Name, Special Offer, Item Price, Total Price, and Shipping charges from the JSON response received. You can find the structure of the JSON response [here](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/google-shopping/structured-data#google_shopping_pricing-structured-output). 
+3. We’ll be extracting Product Name, Special Offer, Item Price, Total Price, and Shipping charges from the JSON response received. You can find the structure of the JSON response [here](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/google-shopping/product-pricing#structured-data). 
 4. After that, we created a DataFrame object to save all the extracted data. We write the DataFrame in CSV or JSON files easily.
 
 
